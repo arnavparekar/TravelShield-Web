@@ -1,0 +1,28 @@
+/* HealthStatus.css */
+.status-badge {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .approved-status {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .pending-status {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .declined-status {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .default-status {
+    background-color: #e2e3e5;
+    color: #383d41;
+  }
+  

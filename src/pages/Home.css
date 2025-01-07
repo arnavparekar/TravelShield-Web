@@ -1,0 +1,115 @@
+/* Home page styling */
+.home {
+    padding: 20px;
+    background-color: #fff; /* Ensure background is white to contrast with gradient */
+  }
+  
+  /* Hero section styling */
+  .hero {
+    background: linear-gradient(to bottom left, #DCEEE4, #EAF5FC); /* Hero gradient background */
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #008CBA;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .hero .get-started-btn {
+    padding: 12px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .hero .get-started-btn:hover {
+    background-color: #007B9E;
+  }
+  
+  /* Tabs component styles */
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0 5px;
+    border-radius: 5px;
+  }
+  
+  .tabs button.active {
+    background-color: #008CBA;
+    color: white;
+    border-color: #008CBA;
+  }
+  
+  .tabs button:hover {
+    background-color: #007B9E;
+    color: white;
+  }
+  
+  /* Passenger list section */
+  .passenger-list {
+    margin-top: 20px;
+  }
+  
+  .passenger-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .passenger-list th, .passenger-list td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .passenger-list th {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .passenger-list td {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .passenger-list tr:hover td {
+    background-color: #f0f8ff;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  
+    .hero .get-started-btn {
+      width: 100%;
+    }
+  }
+  

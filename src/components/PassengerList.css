@@ -1,0 +1,23 @@
+/* PassengerList.css */
+.passenger-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table-header {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f4f4f4;
+  }
+  
+  .table-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-cell {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+  }
+  

@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom left, #DCEEE4, #EAF5FC); 
+  min-height: 100vh; 
+}
+
+
+header {
+  background: linear-gradient(to top right, #DCEEE4, #EAF5FC); 
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+
+button {
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007B9E;
+}
+
+
+
+.passenger-list {
+  margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
