@@ -75,9 +75,9 @@ function Home() {
           <input type="text" placeholder="Enter passenger's name" />
           <button>Search</button>
         </div>
-      </div>
-      <div className="tabs-section">
-        <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
+        <div className="tabs-section">
+          <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
+        </div>
       </div>
       <PassengerList passengers={filteredPassengers} />
     </div>
