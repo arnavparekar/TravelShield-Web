@@ -1,6 +1,5 @@
 import React from "react";
 import "./HealthStatus.css"; 
-
 const HealthStatus = ({ status }) => {
   const getStatusClass = (status) => {
     switch (status) {

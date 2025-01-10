@@ -1,12 +1,12 @@
-/* Home page styling */
+/* 
 .home {
     padding: 20px;
-    background-color: #fff; /* Ensure background is white to contrast with gradient */
+    background-color: #fff; 
   }
   
-  /* Hero section styling */
+ 
   .hero {
-    background: linear-gradient(to bottom left, #DCEEE4, #EAF5FC); /* Hero gradient background */
+    background: linear-gradient(to bottom left, #DCEEE4, #EAF5FC);
     padding: 40px;
     text-align: center;
     border-radius: 8px;
@@ -40,10 +40,11 @@
     background-color: #007B9E;
   }
   
-  /* Tabs component styles */
+
   .tabs {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
   }
   
@@ -69,7 +70,7 @@
     color: white;
   }
   
-  /* Passenger list section */
+
   .passenger-list {
     margin-top: 20px;
   }
@@ -98,7 +99,7 @@
     background-color: #f0f8ff;
   }
   
-  /* Responsive design */
+
   @media (max-width: 768px) {
     .hero h1 {
       font-size: 2rem;
@@ -112,4 +113,67 @@
       width: 100%;
     }
   }
+   */
+
+
+   .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
   
+  .hero {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #1a365d;
+    margin-bottom: 16px;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+    color: #4a5568;
+    margin-bottom: 24px;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  
+  .search-bar input {
+    padding: 8px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 999px;
+    width: 300px;
+    font-size: 1rem;
+  }
+  
+  .search-bar button {
+    padding: 8px 24px;
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .search-bar button:hover {
+    background-color: #3182ce;
+  }
+  
+  .tabs-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
