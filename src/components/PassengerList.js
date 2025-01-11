@@ -19,7 +19,7 @@ const PassengerList = ({ passengers }) => {
 
   return (
     <div className="passenger-list-container">
-      <div className="filter-container">
+      {/* <div className="filter-container">
         {["List", "Safe to Travel", "Needs Review", "Not Eligible"].map((option) => (
           <div
             key={option}
@@ -30,7 +30,7 @@ const PassengerList = ({ passengers }) => {
           </div>
         ))}
         <div className="filter-highlight" style={{ left: `${["List", "Safe to Travel", "Needs Review", "Not Eligible"].indexOf(filter) * 150}px` }} />
-      </div>
+      </div> */}
 
       <table className="passenger-table">
         <thead>
