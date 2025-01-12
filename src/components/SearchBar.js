@@ -9,12 +9,10 @@ const SearchBar = ({ onSearch }) => {
     event.preventDefault();
     setIsActive(!isActive);
     if (!isActive) {
-      // If opening the search bar
       setTimeout(() => {
         document.querySelector('.search-input')?.focus();
       }, 500);
     } else {
-      // If closing the search bar
       setSearchText('');
       onSearch && onSearch('');
     }
