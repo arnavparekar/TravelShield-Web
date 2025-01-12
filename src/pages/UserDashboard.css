@@ -1,0 +1,21 @@
+UserDashboard.css                                                                                                         body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #008080, #f0f8ff);
+    color: #333;
+}
+
+.chart-container {
+    position: absolute;
+    top: 4rem; 
+    left: 2rem; 
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(to bottom right, #E0F2F1, #B2DFDB);
+    padding: 1rem;
+    border-radius: 20%; 
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
