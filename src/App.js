@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-// import { FirebaseAuth } from "react-firebaseui";
-// import { auth } from "./firebase";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Home from "./pages/Home";
 import UserDashboard from "./pages/UserDashboard";
 import WorldMap from "./pages/WorldMap";
