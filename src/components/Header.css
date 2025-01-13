@@ -3,12 +3,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: linear-gradient(to bottom right, #dceee4, #eaf5fc);
+    background: linear-gradient(to bottom right, #dceee0, #eaf5fc);
   }
   
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    color: black;
   }
   
   .nav-links a {
