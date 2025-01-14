@@ -17,38 +17,38 @@ const UserDashboard = () => {
                             label: 'Health Scores',
                             data: [30, 40, 30], //Enter the data here
                             backgroundColor: [
-                                'rgba(128, 203, 196, 0.9)', // Light teal
-                                'rgba(77, 182, 172, 0.9)', // Aqua teal
-                                'rgba(0, 137, 123, 0.9)', // Deep teal
+                                'rgba(128, 203, 196, 0.9)', 
+                                'rgba(77, 182, 172, 0.9)', 
+                                'rgba(0, 137, 123, 0.9)', 
                             ],
                             hoverBackgroundColor: [
-                                'rgba(178, 223, 219, 1)', // Hover Light teal
-                                'rgba(128, 203, 196, 1)', // Hover Aqua teal
-                                'rgba(0, 77, 64, 1)', // Hover Deep teal
+                                'rgba(178, 223, 219, 1)', 
+                                'rgba(128, 203, 196, 1)', 
+                                'rgba(0, 77, 64, 1)',
                             ],
-                            borderWidth: 3, // Border thickness
-                            borderColor: '#ffffff', // White borders
+                            borderWidth: 3, 
+                            borderColor: '#ffffff',
                             hoverOffset: 8,
                         },
                     ],
                 },
                 options: {
                     responsive: true,
-                    maintainAspectRatio: false, // Ensures proper scaling
-                    cutout: '50%', // Decrease this value for a thicker donut
+                    maintainAspectRatio: false,
+                    cutout: '50%', 
                     plugins: {
                         legend: {
                             position: 'top',
                             labels: {
-                                color: '#004D40', // Text color
+                                color: '#004D40', 
                                 font: {
                                     size: 14,
                                 },
                             },
                         },
                         tooltip: {
-                            backgroundColor: 'rgba(0, 77, 64, 0.8)', // Tooltip background
-                            bodyColor: '#ffffff', // Tooltip text
+                            backgroundColor: 'rgba(0, 77, 64, 0.8)',
+                            bodyColor: '#ffffff', 
                             borderColor: '#004D40',
                             borderWidth: 1,
                         },

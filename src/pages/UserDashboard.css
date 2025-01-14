@@ -1,4 +1,5 @@
-UserDashboard.css                                                                                                         body {
+
+.body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom right, #008080, #f0f8ff);

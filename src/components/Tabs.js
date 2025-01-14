@@ -21,8 +21,8 @@ const Tabs = ({ activeTab, setActiveTab }) => {
   useEffect(() => {
     const currentIndex = tabs.findIndex(tab => tab.id === activeTab);
     const liRect = tabsRef.current.getBoundingClientRect();
-    const tabWidth = (liRect.width - 16) / tabs.length; // Subtract total horizontal padding
-    const startPosition = 8; // Left padding
+    const tabWidth = (liRect.width - 16) / tabs.length; 
+    const startPosition = 8;
     
     gsap.defaults({
       ease: "ease.inOut",
@@ -43,7 +43,6 @@ const Tabs = ({ activeTab, setActiveTab }) => {
         });
     };
 
-    // Set initial position
     handleTabClick(currentIndex);
   }, [activeTab, tabs]);
 
@@ -66,7 +65,7 @@ const Tabs = ({ activeTab, setActiveTab }) => {
           background: 'rgb(236, 244, 243)',
           boxShadow: '0 1px 2px rgba(0, 0, 0, 0.05)',
           overflow: 'hidden',
-          padding: '0 8px', // Add horizontal padding
+          padding: '0 8px',
           margin: 0
         }}
       >
@@ -98,9 +97,9 @@ const Tabs = ({ activeTab, setActiveTab }) => {
           ref={focusEl1Ref}
           style={{
             position: 'absolute',
-            left: '8px', // Initial padding
+            left: '8px', 
             top: '4px',
-            width: `calc((100% - 16px) / ${tabs.length})`, // Adjust for padding
+            width: `calc((100% - 16px) / ${tabs.length})`,
             height: 'calc(100% - 8px)',
             borderRadius: '999px',
             background: '#fff',
@@ -113,7 +112,7 @@ const Tabs = ({ activeTab, setActiveTab }) => {
             position: 'absolute',
             left: `calc(-100% / ${tabs.length})`,
             top: '4px',
-            width: `calc((100% - 16px) / ${tabs.length})`, // Adjust for padding
+            width: `calc((100% - 16px) / ${tabs.length})`,
             height: 'calc(100% - 8px)',
             borderRadius: '999px',
             background: '#fff',
