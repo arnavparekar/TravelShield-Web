@@ -32,6 +32,7 @@ function Header() {
       <div className="logo">TravelShield</div>
       <nav className="nav-links">
         <Link to="/">Home</Link>
+        <Link to="/list">List</Link>
         <Link to="/user-dashboard">User Dashboard</Link>
         <Link to="/world-map">World Map</Link>
         {user ? (
