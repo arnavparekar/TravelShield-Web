@@ -6,7 +6,6 @@
     margin-bottom: 30px;
 }
 
-.search-wrapper.active {}
 
 .search-wrapper .input-holder {    
     height: 50px;
@@ -65,6 +64,10 @@
     float: right;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+}
+
+.search-wrapper .input-holder .search-icon:hover {
+    background-color: #efefefea;
 }
 
 .search-wrapper.active .input-holder .search-icon {
