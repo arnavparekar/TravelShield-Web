@@ -15,7 +15,7 @@ const UserDashboard = () => {
                     datasets: [
                         {
                             label: 'Health Scores',
-                            data: [30, 40, 30], //Enter the data here
+                            data: [30, 40, 30], 
                             backgroundColor: [
                                 'rgba(128, 203, 196, 0.9)', 
                                 'rgba(77, 182, 172, 0.9)', 
