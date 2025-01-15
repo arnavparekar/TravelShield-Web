@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Shield, Globe, UserCheck } from "lucide-react";
+import { Shield, Globe, UserCheck, Calculator, Plane, Smartphone } from "lucide-react";
 import "./Home.css";
 
 function Home() {
@@ -16,6 +16,34 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className="what-we-do-section">
+        <div className="container">
+          <h2>What We Do</h2>
+          <div className="services-grid">
+            <div className="service-card">
+              <div className="service-icon">
+                <Calculator className="icon" />
+              </div>
+              <h3>Smart Health Scoring</h3>
+              <p>Our intelligent system calculates personalized health scores considering your travel routes, current health status, and previous travel history to ensure safe journeys.</p>
+            </div>
+            <div className="service-card">
+              <div className="service-icon">
+                <Plane className="icon" />
+              </div>
+              <h3>Travel Safety Verification</h3>
+              <p>We help airports efficiently identify and clear passengers for travel through our advanced health verification system, making air travel safer for everyone.</p>
+            </div>
+            <div className="service-card">
+              <div className="service-icon">
+                <Smartphone className="icon" />
+              </div>
+              <h3>All-in-One Travel Companion</h3>
+              <p>Access personalized health recommendations, travel planning tools, and real-time updates all in one place with our user-friendly mobile application.</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="features-section">
         <div className="container">
           <h2>Why Choose TravelShield?</h2>
@@ -27,7 +55,6 @@ function Home() {
               <h3>Health Screening</h3>
               <p>Advanced health monitoring and screening protocols for safer travel</p>
             </div>
-
             <div className="feature-card">
               <div className="feature-icon">
                 <Globe className="icon" />
@@ -35,31 +62,12 @@ function Home() {
               <h3>Global Network</h3>
               <p>Connected with airports worldwide for seamless health verification</p>
             </div>
-
             <div className="feature-card">
               <div className="feature-icon">
                 <UserCheck className="icon" />
               </div>
               <h3>Real-time Updates</h3>
               <p>Instant health status verification and travel recommendations</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="stats-section">
-        <div className="container">
-          <div className="stats-grid">
-            <div className="stat-card">
-              <h3>98%</h3>
-              <p>Health Verification Accuracy</p>
-            </div>
-            <div className="stat-card">
-              <h3>2-5 min</h3>
-              <p>Average Screening Time</p>
-            </div>
-            <div className="stat-card">
-              <h3>24/7</h3>
-              <p>Real-time Monitoring</p>
             </div>
           </div>
         </div>
