@@ -1,9 +1,27 @@
-.header {
+/* .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: linear-gradient(to bottom right, #dceee0, #eaf5fc);
+    background: #59adeb;
+
+  background: -moz-linear-gradient(-45deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
+
+  background: -webkit-linear-gradient(-45deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
+
+  background: linear-gradient(135deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#59adeb', endColorstr='#34ce93', GradientType=1);
+
+  background-size: 350% 350%;
+  animation: waveColors 8s ease infinite;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
   }
   
   .logo {
@@ -20,5 +38,51 @@
   
   .nav-links a:hover {
     text-decoration: underline;
+  }
+   */
+   :root {
+    --header-height: 80px; /* Adjust based on your desired header height */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
+    position: fixed; /* Keeps the header fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height); /* Sets the header height */
+    z-index: 1000; /* Ensures the header stays above other content */
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Adds optional shadow */
+  }
+  
+  .nav-links a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Push content below the fixed header */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    padding-top: var(--header-height); /* Ensures content starts below the header */
   }
   

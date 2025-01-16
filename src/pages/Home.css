@@ -1,11 +1,12 @@
   :root{
-    --header-height: 64px;
+    --header-height: 80px;
   }
 
   .home {
     min-height: 100vh;
     width: 100%;
     overflow-x: hidden;
+    padding-top: var(--header-height);
   }
   
   .container {
