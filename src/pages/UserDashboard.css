@@ -2,7 +2,9 @@
     max-width: 1400px;
     margin: 0 auto;
     padding: 2rem;
+    padding-top: var(--header-height);
   }
+
   
   .dashboard-container .header {
     display: flex;
@@ -11,6 +13,7 @@
     background: linear-gradient(to right, #004d40, #00695c);
     color: white;
     padding: 1.5rem 2rem;
+    padding-top: var(--header-height);
     border-radius: 12px;
     margin-bottom: 2rem;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
