@@ -62,7 +62,7 @@ const Tabs = ({ activeTab, setActiveTab }) => {
           display: 'grid',
           gridTemplateColumns: `repeat(${tabs.length}, 1fr)`,
           borderRadius: '999px',
-          background: 'rgb(236, 244, 243)',
+          background: 'rgb(160, 252, 216)',
           boxShadow: '0 1px 2px rgba(0, 0, 0, 0.05)',
           overflow: 'hidden',
           padding: '0 8px',
