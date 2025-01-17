@@ -8,7 +8,7 @@ const PassengerList = ({ passengers }) => {
       <table className="passenger-table">
         <thead>
           <tr>
-            <th className="table-header">ID</th>
+            <th className="table-header">Flight ID</th>
             <th className="table-header">Name</th>
             <th className="table-header">Route</th>
             <th className="table-header">Health Status</th>
