@@ -81,7 +81,7 @@ const Tabs = ({ activeTab, setActiveTab }) => {
               justifyContent: 'center',
               gap: '8px',
               fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-              color: activeTab === id ? 'rgb(60, 70, 80)' : 'rgb(100, 116, 139)',
+              color: activeTab === id ? 'rgb(29,73,115)' : 'rgb(100, 116, 139)',
               fontSize: '14px',
               fontWeight: 500,
               zIndex: 10,
