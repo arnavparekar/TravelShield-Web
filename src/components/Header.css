@@ -18,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: linear-gradient(135deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
+    background: linear-gradient(135deg, #1c9399 22%, #ebf3f0 100%);
     position: fixed; /* Fix the header so it stays visible on scroll */
     top: 0;
     left: 0;

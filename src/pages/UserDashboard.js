@@ -339,6 +339,42 @@ function UserDashboard() {
             );
             if (chart) charts.push(chart);
         }
+          // Symptoms Chart
+    if (symptomsRef.current) {
+      charts.push(new Chart(symptomsRef.current, {
+        type: 'line',
+        data: {
+          labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5'],
+          datasets: [{
+            label: 'Symptoms',
+            data: [1, 2, 3, 2, 1],
+            borderColor: '#E91E63',
+            backgroundColor: 'rgba(233, 30, 99, 0.2)',
+            fill: true,
+            tension: 0.4
+          }]
+        },
+        options: {
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 5,
+              ticks: {
+                stepSize: 1
+              }
+            }
+          },
+          animation: {
+            duration: 2000,
+            easing: 'easeInOutQuart'
+          }
+        }
+      }));
+}
     }, 
   0);
 
@@ -415,5 +451,7 @@ function UserDashboard() {
       </div>
     </div>
   );
+
 }
+
 export default UserDashboard;
