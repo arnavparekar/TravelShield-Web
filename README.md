@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# Justice.AI : AI-Powered Legal Aid Platform
+**Justice.AI** law-based platform leverages AI to streamline legal processes for users and professionals. It features an **IBM-powered chatbot** that answers legal questions, providing reliable guidance. The **Case Analysis** tool matches user-submitted details with a vast database to deliver personalized insights and outcomes. The **Document Summarization** feature simplifies complex legal texts, creating concise summaries and translating key points into native Indian languages. **Argument Prediction** uses AI to suggest strategic arguments tailored to the user's case. Additionally, the **Judge Upload** feature allows judges to upload case documents and verdicts, enriching the database for more accurate case analyses.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Live Preview](#live-preview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [About Us](#about-us)
 
-## Available Scripts
+## Project Overview
+**Justice.AI** is an AI-driven legal aid platform that simplifies complex legal processes through intelligent analysis and automation. Powered by IBM Watsonx AI, Justice.AI provides individuals and legal professionals with tools to analyze cases, predict arguments, and access legal resources more efficiently. The platform is designed to improve accessibility to legal services while offering accurate insights and document summarization.
 
-In the project directory, you can run:
+Key goals:
+- Provide case analysis and legal resource search through AI.
+- Predict legal arguments based on case descriptions for lawyers.
+- Enable efficient document summarization for legal documents.
+- Facilitate the upload of court rulings for future reference.
 
-### `npm start`
+## Live Preview 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Link to the Website :**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Deployed Website](https://justice-ai.vercel.app/)
+<p><small> ( Note : The website may not work properly as it depends on a Flask backend running locally, which needs to be deployed to a server for full functionality. Additionally, you'll require your own IBM Cloud details to access the chatbot. ) </small></p>
 
-### `npm test`
+**Justice.AI Introduction Video :**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Link to the Video](https://youtu.be/-_pAS1dKlac)
 
-### `npm run build`
+## Features
+- **AI-Powered Case Analysis**: Assess user-provided case details and generate outcome predictions based on historical legal data.
+- **Document Summarization**: Automatically generate concise summaries of legal documents, with support for multiple languages and legal terminologies.
+- **Argument Prediction for Lawyers**: Predict possible arguments for both prosecution and defense, using deep learning models that analyze case descriptions.
+- **Judge Verdict Uploads:** Judges can upload court rulings for AI-powered analysis, which can be used for future case comparisons and predictive insights.
+- **Interactive and User-Friendly Portal**: The platform is designed for ease of use, ensuring both legal professionals and general users can easily navigate and utilize its features.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+- **Frontend**: Vue.js, HTML, CSS, JavaScript
+- **Backend**: Flask(Python), Node.js
+- **APIs & Tools**: IBM Watson Assistant for conversations, Gemini API for case analysis
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
+<pre>
+  <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Homepage.jpg" width ="295"> <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Chatbot.jpg" width ="295"> <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Services.jpg" width ="295"> <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Case%20Analysis.jpg" width ="295"> <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Document%20Summarization.jpg" width ="295"> <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Argument%20Prediction.jpg" width ="295"> <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Judge%20Upload.jpg" width ="295">
+</pre>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
+Before running the Justice.AI project locally, ensure you have the following installed:
+- **Node.js** (includes npm): Download Node.js
+- **Python 3.x**: Download Python
+- **Flask**: Install Flask using pip:
+ ```bash
+  pip install Flask
+  ```
+- **IBM Watsonx API Key**: Obtain your API key from IBM Cloud
 
-### `npm run eject`
+### Steps to Run Locally
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/arnavparekar/Justice.ai.git
+    cd Justice.AI  
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install Flask and required Python packages:
+    ```bash
+    pip install Flask
+    ```
+    Run the backend using Flask:
+    ```bash
+    python app.py
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Install frontend dependencies:
+    ```bash
+    npm install 
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Start the Vue.js development server:
+    ```bash
+    npm run serve
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## Learn More
+# Hi, We are the makers of Justice.AI! 👋
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## About us
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Meet the innovators behind Justice.AI – Aditi A, Aditi B, Arnav and Nikhil. Together, we are redefining access to legal aid through cutting-edge technology. Our shared vision is to bridge the gap between individuals, legal professionals, and the complex legal system, making it more accessible, efficient, and data-driven. Justice.AI is not just about simplifying legal processes; it's about empowering individuals and lawyers with intelligent, AI-powered solutions for better decision-making.
 
-### Code Splitting
+Our mission is clear: revolutionize legal aid through advanced AI models that analyze legal cases, predict arguments, and provide document summaries. By leveraging IBM Watsonx AI , we aim to offer personalized legal insights, helping users navigate complex cases with confidence. Whether you're an individual seeking legal guidance or a lawyer building your next case strategy, Justice.AI equips you with the tools to achieve your goals.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Built with scalability and ease of use in mind, Justice.AI’s intuitive portal provides a seamless experience for accessing case summaries, predicting arguments, and conducting legal research. As the legal landscape evolves, our platform grows alongside it, ensuring cutting-edge legal technology is always within reach. Our commitment to accessibility and accuracy is driving the future of legal services, aligning with our broader vision of making justice more attainable for all. Join us in transforming the legal world with AI-powered solutions that make a real difference.
 
-### Analyzing the Bundle Size
+- Arnav - [Arnav Parekar](https://linkedin.com/in/arnav-parekar-b55786287/)
+- Aditi - [Aditi Agale](https://www.linkedin.com/in/aditi-agale-981372289/)
+- Aditi - [Aditi Bambal](https://www.linkedin.com/in/aditi-bambal-06640328b/)
+- Nikhil - [Nikhil Parkar](https://www.linkedin.com/in/nikhil-parkar-49b600274/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Happy coding 💯
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with love ❤️
