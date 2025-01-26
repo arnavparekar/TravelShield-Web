@@ -1,4 +1,4 @@
-# Justice.AI : AI-Powered Legal Aid Platform
+# TravelShield : AI-Powered Legal Aid Platform
 **Justice.AI** law-based platform leverages AI to streamline legal processes for users and professionals. It features an **IBM-powered chatbot** that answers legal questions, providing reliable guidance. The **Case Analysis** tool matches user-submitted details with a vast database to deliver personalized insights and outcomes. The **Document Summarization** feature simplifies complex legal texts, creating concise summaries and translating key points into native Indian languages. **Argument Prediction** uses AI to suggest strategic arguments tailored to the user's case. Additionally, the **Judge Upload** feature allows judges to upload case documents and verdicts, enriching the database for more accurate case analyses.
 
 ## Table of Contents
@@ -38,9 +38,9 @@ Key goals:
 - **Interactive and User-Friendly Portal**: The platform is designed for ease of use, ensuring both legal professionals and general users can easily navigate and utilize its features.
 
 ## Technologies Used
-- **Frontend**: Vue.js, HTML, CSS, JavaScript
-- **Backend**: Flask(Python), Node.js
-- **APIs & Tools**: IBM Watson Assistant for conversations, Gemini API for case analysis
+- **Frontend**: React, Figma
+- **Backend**: Node.js and Firebase Firestore
+- **APIs & Tools**: Gemini API for personalised health recommendations
 
 ## Screenshots
 <pre>
@@ -50,18 +50,13 @@ Key goals:
 ## Installation
 Before running the Justice.AI project locally, ensure you have the following installed:
 - **Node.js** (includes npm): Download Node.js
-- **Python 3.x**: Download Python
-- **Flask**: Install Flask using pip:
- ```bash
-  pip install Flask
-  ```
-- **IBM Watsonx API Key**: Obtain your API key from IBM Cloud
+
 
 ### Steps to Run Locally
 1. Clone the repository:
     ```bash
-    git clone https://github.com/arnavparekar/Justice.ai.git
-    cd Justice.AI  
+    git clone https://github.com/arnavparekar/TravelShield-Web.git
+    cd TravelShield-Web  
     ```
 
 2. Install Flask and required Python packages:
@@ -78,19 +73,17 @@ Before running the Justice.AI project locally, ensure you have the following ins
     npm install 
     ```
 
-5. Start the Vue.js development server:
+5. Start the React.js development server:
     ```bash
-    npm run serve
+    npm start
     ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
-# Hi, We are the makers of Justice.AI! 👋
+# Hi, We are the makers of TravelShield! 👋
 
 ## About us
 
-Meet the innovators behind Justice.AI – Aditi A, Aditi B, Arnav and Nikhil. Together, we are redefining access to legal aid through cutting-edge technology. Our shared vision is to bridge the gap between individuals, legal professionals, and the complex legal system, making it more accessible, efficient, and data-driven. Justice.AI is not just about simplifying legal processes; it's about empowering individuals and lawyers with intelligent, AI-powered solutions for better decision-making.
+Meet the innovators behind TravelShield – Aditi A, Aditi B, Arnav and Nikhil. Together, we are redefining access to legal aid through cutting-edge technology. Our shared vision is to bridge the gap between individuals, legal professionals, and the complex legal system, making it more accessible, efficient, and data-driven. Justice.AI is not just about simplifying legal processes; it's about empowering individuals and lawyers with intelligent, AI-powered solutions for better decision-making.
 
 Our mission is clear: revolutionize legal aid through advanced AI models that analyze legal cases, predict arguments, and provide document summaries. By leveraging IBM Watsonx AI , we aim to offer personalized legal insights, helping users navigate complex cases with confidence. Whether you're an individual seeking legal guidance or a lawyer building your next case strategy, Justice.AI equips you with the tools to achieve your goals.
 
