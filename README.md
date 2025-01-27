@@ -1,5 +1,5 @@
-# TravelShield : AI-Powered Legal Aid Platform
-**Justice.AI** law-based platform leverages AI to streamline legal processes for users and professionals. It features an **IBM-powered chatbot** that answers legal questions, providing reliable guidance. The **Case Analysis** tool matches user-submitted details with a vast database to deliver personalized insights and outcomes. The **Document Summarization** feature simplifies complex legal texts, creating concise summaries and translating key points into native Indian languages. **Argument Prediction** uses AI to suggest strategic arguments tailored to the user's case. Additionally, the **Judge Upload** feature allows judges to upload case documents and verdicts, enriching the database for more accurate case analyses.
+# TravelShield : Your Travel and Healthcare one stop app
+**Travel-Shield** law-based platform leverages AI to streamline legal processes for users and professionals. It features an **IBM-powered chatbot** that answers legal questions, providing reliable guidance. The **Case Analysis** tool matches user-submitted details with a vast database to deliver personalized insights and outcomes. The **Document Summarization** feature simplifies complex legal texts, creating concise summaries and translating key points into native Indian languages. **Argument Prediction** uses AI to suggest strategic arguments tailored to the user's case. Additionally, the **Judge Upload** feature allows judges to upload case documents and verdicts, enriching the database for more accurate case analyses.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -11,7 +11,7 @@
 - [About Us](#about-us)
 
 ## Project Overview
-**Justice.AI** is an AI-driven legal aid platform that simplifies complex legal processes through intelligent analysis and automation. Powered by IBM Watsonx AI, Justice.AI provides individuals and legal professionals with tools to analyze cases, predict arguments, and access legal resources more efficiently. The platform is designed to improve accessibility to legal services while offering accurate insights and document summarization.
+**TravelShield** is an AI-driven legal aid platform that simplifies complex legal processes through intelligent analysis and automation. Powered by IBM Watsonx AI, Justice.AI provides individuals and legal professionals with tools to analyze cases, predict arguments, and access legal resources more efficiently. The platform is designed to improve accessibility to legal services while offering accurate insights and document summarization.
 
 Key goals:
 - Provide case analysis and legal resource search through AI.
@@ -87,7 +87,7 @@ Meet the innovators behind TravelShield – Aditi A, Aditi B, Arnav and Nikhil. 
 
 Our mission is clear: revolutionize legal aid through advanced AI models that analyze legal cases, predict arguments, and provide document summaries. By leveraging IBM Watsonx AI , we aim to offer personalized legal insights, helping users navigate complex cases with confidence. Whether you're an individual seeking legal guidance or a lawyer building your next case strategy, Justice.AI equips you with the tools to achieve your goals.
 
-Built with scalability and ease of use in mind, Justice.AI’s intuitive portal provides a seamless experience for accessing case summaries, predicting arguments, and conducting legal research. As the legal landscape evolves, our platform grows alongside it, ensuring cutting-edge legal technology is always within reach. Our commitment to accessibility and accuracy is driving the future of legal services, aligning with our broader vision of making justice more attainable for all. Join us in transforming the legal world with AI-powered solutions that make a real difference.
+Built with scalability and ease of use in mind, TravelShield’s intuitive portal provides a seamless experience for accessing case summaries, predicting arguments, and conducting legal research. As the legal landscape evolves, our platform grows alongside it, ensuring cutting-edge legal technology is always within reach. Our commitment to accessibility and accuracy is driving the future of legal services, aligning with our broader vision of making justice more attainable for all. Join us in transforming the legal world with AI-powered solutions that make a real difference.
 
 - Arnav - [Arnav Parekar](https://linkedin.com/in/arnav-parekar-b55786287/)
 - Aditi - [Aditi Agale](https://www.linkedin.com/in/aditi-agale-981372289/)
