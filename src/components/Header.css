@@ -1,95 +1,80 @@
-:root {
-  --header-height: 80px;
-  --header-small-height: 60px;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-main {
-  padding-top: var(--header-height);
-  transition: padding-top 0.3s;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background: linear-gradient(135deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  height: var(--header-height);
-  transition: transform 0.3s, background-color 0.3s, padding 0.3s, height 0.3s;
-}
-
-.header.visible {
-  transform: translateY(0);
-}
-
-.header.hidden {
-  transform: translateY(-100%);
-}
-
-.header.small {
-  height: var(--header-small-height);
-  padding: 0.5rem 1rem;
-  background-color: rgba(89, 173, 235, 0.9);
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: black;
-  transition: font-size 0.3s;
-}
-
-.logo-img {
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-  margin-right: 15px;
-  border-radius: 50%;
-}
-
-.header.small .logo {
-  font-size: 1.2rem;
-}
-
-.header.small .logo-img {
-  width: 40px;
-  height: 40px;
-}
-
-.nav-links a {
-  margin-left: 1rem;
-  text-decoration: none;
-  color: #333;
-  transition: color 0.3s;
-}
-
-.nav-links a:hover {
-  text-decoration: underline;
-}
-
-.auth-btn {
-  margin-left: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #90ebad;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.auth-btn:hover {
-  background-color: #285e61;
-}
+   :root {
+    --header-height: 70px; /* Default height of the header */
+    --header-small-height: 60px; /* Height of the header when scrolled */
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    padding-top: var(--header-height); /* Push content below the header */
+    transition: padding-top 0.3s; /* Smooth adjustment for header transitions */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #1c9399 22%, #ebf3f0 100%);
+    position: fixed; /* Fix the header so it stays visible on scroll */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: var(--header-height); /* Default header height */
+    transition: transform 0.3s, background-color 0.3s, padding 0.3s, height 0.3s;
+  }
+  
+  .header.visible {
+    transform: translateY(0); /* Fully visible header */
+  }
+  
+  .header.hidden {
+    transform: translateY(-100%); /* Hide the header */
+  }
+  
+  .header.small {
+    height: var(--header-small-height); /* Smaller height on scroll */
+    padding: 0.5rem 1rem;
+    background-color: rgba(89, 173, 235, 0.9); /* Slightly transparent background */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    transition: font-size 0.3s;
+  }
+  
+  .header.small .logo {
+    font-size: 1.2rem; /* Smaller logo size on scroll */
+  }
+  
+  .nav-links a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .auth-btn {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #2c7a7b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-btn:hover {
+    background-color: #285e61;
+  }
