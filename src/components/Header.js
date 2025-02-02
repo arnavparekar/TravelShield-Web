@@ -3,6 +3,7 @@ import { Link, useHistory } from "react-router-dom";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 import { app } from "../firebase";
 import "./Header.css";
+import LogoImage from "../Assets/Logo_TravelShield.jpg"
 
 function Header() {
   const [user, setUser] = useState(null);
@@ -52,7 +53,10 @@ function Header() {
         isSmallHeader ? "small" : ""
       }`}
     >
-      <div className="logo">TravelShield</div>
+      <div className="logo">
+      <img src={LogoImage} alt="TravelShield Logo" className="logo-img"/>
+        TravelShield
+      </div>
       <nav className="nav-links">
         <Link to="/">Home</Link>
         <Link to="/list">List</Link>
