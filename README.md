@@ -1,97 +1,127 @@
-# TravelShield : Your Travel and Healthcare one stop app
-**Travel-Shield** law-based platform leverages AI to streamline legal processes for users and professionals. It features an **IBM-powered chatbot** that answers legal questions, providing reliable guidance. The **Case Analysis** tool matches user-submitted details with a vast database to deliver personalized insights and outcomes. The **Document Summarization** feature simplifies complex legal texts, creating concise summaries and translating key points into native Indian languages. **Argument Prediction** uses AI to suggest strategic arguments tailored to the user's case. Additionally, the **Judge Upload** feature allows judges to upload case documents and verdicts, enriching the database for more accurate case analyses.
+<center>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=24F76C&background=FFF06100&width=435&lines=Welcome+to+TravelShield!" alt="Typing SVG" />
+</center>
+
 
 ## Table of Contents
-- [Project Overview](#project-overview)
-- [Live Preview](#live-preview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
+- [Introduction](#-introduction)
+- [TravelShield Project](#intro-to-travelshield-video)
+- [Getting Started](#getting-started)
+- [Resources](#resources)
 - [Screenshots](#screenshots)
-- [Installation](#installation)
+- [Key Features](#key-features)
+- [Additional Features](#additional-features)
+- [Tech Stack](#tech-stack)
 - [About Us](#about-us)
 
-## Project Overview
-**TravelShield** is an AI-driven legal aid platform that simplifies complex legal processes through intelligent analysis and automation. Powered by IBM Watsonx AI, Justice.AI provides individuals and legal professionals with tools to analyze cases, predict arguments, and access legal resources more efficiently. The platform is designed to improve accessibility to legal services while offering accurate insights and document summarization.
+## TravelShield
 
-Key goals:
-- Provide case analysis and legal resource search through AI.
-- Predict legal arguments based on case descriptions for lawyers.
-- Enable efficient document summarization for legal documents.
-- Facilitate the upload of court rulings for future reference.
+## 💡 Introduction:
 
-## Live Preview 
+**Problem Statement**: Global travelers face challenges in managing health risks and planning safe, personalized trips due to a lack of accessible, tailored health information. Governments also struggle to monitor and control disease outbreaks effectively across regions.
 
-**Link to the Website :**
+**Solution**: TravelShield provides personalized health insights and trip planning tools, ensuring safer and well-informed travel experiences. It integrates AI-powered analysis and multilingual support to cater to global users, offering tailored precautions and recommendations. Additionally, it helps governments monitor traveler health data and manage disease outbreaks efficiently.
 
-- [Deployed Website](https://justice-ai.vercel.app/)
-<p><small> ( Note : The website may not work properly as it depends on a Flask backend running locally, which needs to be deployed to a server for full functionality. Additionally, you'll require your own IBM Cloud details to access the chatbot. ) </small></p>
 
-**Justice.AI Introduction Video :**
 
-- [Link to the Video](https://youtu.be/-_pAS1dKlac)
 
-## Features
-- **AI-Powered Case Analysis**: Assess user-provided case details and generate outcome predictions based on historical legal data.
-- **Document Summarization**: Automatically generate concise summaries of legal documents, with support for multiple languages and legal terminologies.
-- **Argument Prediction for Lawyers**: Predict possible arguments for both prosecution and defense, using deep learning models that analyze case descriptions.
-- **Judge Verdict Uploads:** Judges can upload court rulings for AI-powered analysis, which can be used for future case comparisons and predictive insights.
-- **Interactive and User-Friendly Portal**: The platform is designed for ease of use, ensuring both legal professionals and general users can easily navigate and utilize its features.
 
-## Technologies Used
-- **Frontend**: React, Figma
-- **Backend**: Node.js and Firebase Firestore
-- **APIs & Tools**: Gemini API for personalised health recommendations
+# TravelShield Project:
 
-## Screenshots
+## Intro To TravelShield Video
+
+[Link to the Video](https://youtu.be/Nedx37vZ7AU)
+
+
+
+## Getting Started
+Before running the project, make sure you have the necessary files downloaded:
+1. **firebase_options.dart**: Located in the `lib` folder.
+2. **google-services.json**: Located in the `android/app/` directory.
+
+Note : This project requires a paid Azure Open AI API key; please **create your own API key** to use the project.
+
+
+## Setup:
+
+### For running it locally
+
+```bash
+git clone https://github.com/Nikhil-1426/TravelShield
+```
+```bash
+cd TravelShield
+```
+```bash
+flutter pub get
+```
+```bash
+flutter run
+```
+
+## Resources
+
+- [React Docs](https://react.dev/learn)
+- [Figma](https://help.figma.com/hc/en-us)
+- [Firebase Docs](https://firebase.google.com/docs)
+  
+# Screenshots
 <pre>
-  <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Homepage.jpg" width ="295"> <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Chatbot.jpg" width ="295"> <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Services.jpg" width ="295"> <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Case%20Analysis.jpg" width ="295"> <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Document%20Summarization.jpg" width ="295"> <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Argument%20Prediction.jpg" width ="295"> <img src="https://github.com/arnavparekar/Justice.ai/blob/main/src/assets/Judge%20Upload.jpg" width ="295">
+<img src = "https://github.com/Nikhil-1426/TravelShield/blob/main/assets/Loading%20Page.jpg" width = "250">  <img src = "https://github.com/Nikhil-1426/TravelShield/blob/main/assets/Sign%20Up%20Page.jpg" width = "250">  <img src = "https://github.com/Nikhil-1426/TravelShield/blob/main/assets/Home%20Page.jpg" width = "250">
+<img src = "https://github.com/Nikhil-1426/TravelShield/blob/main/assets/Plan%20A%20Trip.jpg" width = "250">  <img src= "https://github.com/Nikhil-1426/TravelShield/blob/main/assets/Profile%20Page.jpg" width = "250">  <img src = "https://github.com/Nikhil-1426/TravelShield/blob/main/assets/Settings%20Page.jpg" width = "250">
+<img src = "https://github.com/Nikhil-1426/TravelShield/blob/main/assets/Terms%20and%20Conditions.jpg" width = "250">  <img src= "https://github.com/Nikhil-1426/TravelShield/blob/main/assets/About%20Us.jpg" width = "250">  <img src = "https://github.com/Nikhil-1426/TravelShield/blob/main/assets/Help%20Centre.jpg" width = "250">
 </pre>
 
-## Installation
-Before running the Justice.AI project locally, ensure you have the following installed:
-- **Node.js** (includes npm): Download Node.js
 
+## Key Features:
+1. **Health Profiling:**
+  - Collects and analyzes user health data through AI to provide a personalized health summary and score, ensuring tailored travel guidance.
+2. **Trip Planning:**
+  - Compares weather, dietary preferences, and regional health risks between locations, offering customized precautions, dietary suggestions, and travel scores.
+3. **Multilingual Support:**
+  - Utilizes Azure Translator to provide trip summaries and health insights in the user’s preferred language for global accessibility.
+4. **Disease Monitoring:**
+  - Highlights region-specific diseases and precautions, enabling users to stay informed about health risks at their destination.
+5. **User Data Management:**
+  - Maintains a profile of travel history, vaccinations, and health insights, giving users easy access to essential travel-related information.
+6. **Government Collaboration:**
+  - Helps authorities monitor traveler health data, enforce travel restrictions, and track regional disease trends to prevent outbreaks.
 
-### Steps to Run Locally
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/arnavparekar/TravelShield-Web.git
-    cd TravelShield-Web  
-    ```
+## Additional Features:
+- **Health Scoring:**
+   - Generates a personalized health score based on user-provided data and AI analysis to guide safer travel decisions.
+- **Secure Authentication:**
+   - Uses Firebase Authentication for secure sign-up and sign-in processes.
+- **Travel History Tracking:**
+   - Maintains a detailed log of past trips, health profiles, and vaccination records for user convenience.
 
-2. Install Flask and required Python packages:
-    ```bash
-    pip install Flask
-    ```
-    Run the backend using Flask:
-    ```bash
-    python app.py
-    ```
-
-4. Install frontend dependencies:
-    ```bash
-    npm install 
-    ```
-
-5. Start the React.js development server:
-    ```bash
-    npm start
-    ```
+## Tech Stack
+1. **Flutter / Dart:**
+   - Used for building a seamless, cross-platform mobile application with a user-friendly interface designed for individuals with Alzheimer's.
+2. **Firebase:**
+   - Stores user data, reminders, geofencing information, and facial recognition data, providing real-time synchronization and easy access.
+3. **FireAuth:**
+   - Provides secure user authentication and management, ensuring that user data remains protected.
+4. **Flask API:**
+   - Handles backend processes for trip analysis, health profiling, and REST API calls, ensuring seamless communication between the app and AI services.
+5. **Azure Translator:**
+   - Powers multilingual support by translating health insights and trip summaries, enabling global accessibility for users.
+6. **Gemini API:**
+   - Processes and tracks reminders through the user's conversations.
+7. **Figma:**
+   - Used for designing and prototyping the app's user interface and user experience, ensuring a visually appealing and intuitive design.
 
 
 # Hi, We are the makers of TravelShield! 👋
 
 ## About us
 
-Meet the innovators behind TravelShield – Aditi A, Aditi B, Arnav and Nikhil. Together, we are redefining access to legal aid through cutting-edge technology. Our shared vision is to bridge the gap between individuals, legal professionals, and the complex legal system, making it more accessible, efficient, and data-driven. Justice.AI is not just about simplifying legal processes; it's about empowering individuals and lawyers with intelligent, AI-powered solutions for better decision-making.
+Meet the creators behind TravelShield – Aditi A, Aditi B, Arnav and Nikhil. 
+We are a passionate team committed to empowering travelers with the knowledge and tools they need to navigate global journeys safely and confidently. TravelShield is more than just an app; it’s a trusted travel companion designed to prioritize health, safety, and personalization. Our mission is clear: to provide accessible, AI-driven insights and support for travelers while fostering global health awareness. With a focus on user-centric design, TravelShield delivers a seamless and secure experience, combining tailored trip planning with multilingual accessibility. Join us in building a community where innovation and care come together to make every journey safe and meaningful.
 
-Our mission is clear: revolutionize legal aid through advanced AI models that analyze legal cases, predict arguments, and provide document summaries. By leveraging IBM Watsonx AI , we aim to offer personalized legal insights, helping users navigate complex cases with confidence. Whether you're an individual seeking legal guidance or a lawyer building your next case strategy, Justice.AI equips you with the tools to achieve your goals.
-
-Built with scalability and ease of use in mind, TravelShield’s intuitive portal provides a seamless experience for accessing case summaries, predicting arguments, and conducting legal research. As the legal landscape evolves, our platform grows alongside it, ensuring cutting-edge legal technology is always within reach. Our commitment to accessibility and accuracy is driving the future of legal services, aligning with our broader vision of making justice more attainable for all. Join us in transforming the legal world with AI-powered solutions that make a real difference.
-
-- Arnav - [Arnav Parekar](https://linkedin.com/in/arnav-parekar-b55786287/)
 - Aditi - [Aditi Agale](https://www.linkedin.com/in/aditi-agale-981372289/)
 - Aditi - [Aditi Bambal](https://www.linkedin.com/in/aditi-bambal-06640328b/)
+- Arnav - [Arnav Parekar](https://linkedin.com/in/arnav-parekar-b55786287/)
 - Nikhil - [Nikhil Parkar](https://www.linkedin.com/in/nikhil-parkar-49b600274/)
 
 ## Happy coding 💯
