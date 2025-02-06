@@ -1,8 +1,5 @@
 <center>
-<div style="display: flex; align-items: center;">
-  <img src="https://github.com/arnavparekar/TravelShield-Web/blob/main/src/Assets/Logo_TravelShield1.jpg" width="100" height="100" style="vertical-align: middle; padding-right: 20px;">
   <img src="https://readme-typing-svg.herokuapp.com?font=Lato&size=37&letterSpacing=1px&pause=1000&color=07F7B8&background=FFF06100&center=true&vCenter=true&width=435&lines=Welcome+to+TravelShield!"/>
-</div>
 </center>
 
 
@@ -24,8 +21,6 @@
 **Problem Statement**: Global travelers face challenges in managing health risks and planning safe, personalized trips due to a lack of accessible, tailored health information. Governments also struggle to monitor and control disease outbreaks effectively across regions.
 
 **Solution**: TravelShield provides a comprehensive travel health management solution designed to ensure safer journeys for both travelers and airport authorities. Our mobile app empowers users with personalized health scores, dynamic trip recommendations, and real-time health insights tailored to their medical history and destination conditions. However, the true game-changer is our web platform for airport authorities, which offers a real-time dashboard displaying travelers' health statuses, enabling them to make informed decisions on travel eligibility. This ensures smooth airport operations, minimizes health-related disruptions, and enhances passenger safety by proactively identifying potential risks. By integrating AI-driven insights, multilingual support, and seamless cloud-based infrastructure, TravelShield bridges the critical gap between health and travel, making global mobility safer and smarter.
-
-
 
 
 
