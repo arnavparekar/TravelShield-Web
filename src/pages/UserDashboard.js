@@ -199,94 +199,94 @@ function UserDashboard() {
   };
 
 
-  // useEffect(() => {
-  //   const charts = [];
-  //   if (generalHealthRef.current) {
-  //     charts.push(createAnimatedDoughnutChart(
-  //       generalHealthRef.current,
-  //       {
-  //         labels: ['Score', 'Remaining'],
-  //         datasets: [{
-  //           data: [userData.generalHealth * 10, 100 - (userData.generalHealth * 10)],
-  //           backgroundColor: ['#00BCD4', '#e0e0e0'],
-  //           borderWidth: 0,
-  //         }]
-  //       },
-  //       ['#00BCD4', '#e0e0e0'],
-  //       ['#26C6DA', '#bdbdbd']
-  //     ));
-  //   }
-  //   if (relativeHealthRef.current) {
-  //     charts.push(createAnimatedDoughnutChart(
-  //       relativeHealthRef.current,
-  //       {
-  //         labels: ['Score', 'Remaining'],
-  //         datasets: [{
-  //           data: [userData.relativeHealth * 10, 100 - (userData.relativeHealth * 10)],
-  //           backgroundColor: ['#9C27B0', '#e0e0e0'],
-  //           borderWidth: 0,
-  //         }]
-  //       },
-  //       ['#9C27B0', '#e0e0e0'],
-  //       ['#BA68C8', '#bdbdbd']
-  //     ));
-  //   }
-  //   // Vaccination Chart
-  //   if (vaccinationRef.current){
-  //     charts.push(createAnimatedDoughnutChart(
-  //       vaccinationRef.current,
-  //       {
-  //         labels: ['Complete', 'Pending'],
-  //         datasets: [{
-  //           data: [75, 25],
-  //           backgroundColor: ['#FF9800', '#e0e0e0'],
-  //           borderWidth: 0,
-  //         }]
-  //       },
-  //       ['#FF9800', '#e0e0e0'],
-  //       ['#FFA726', '#bdbdbd']
-  //     ));
-  //   }
-  //   // Symptoms Chart
-  //   if (symptomsRef.current){
-  //     charts.push(new Chart(symptomsRef.current, {
-  //       type: 'line',
-  //       data: {
-  //         labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5'],
-  //         datasets: [{
-  //           label: 'Symptoms',
-  //           data: [1, 2, 3, 2, 1],
-  //           borderColor: '#E91E63',
-  //           backgroundColor: 'rgba(233, 30, 99, 0.2)',
-  //           fill: true,
-  //           tension: 0.4
-  //         }]
-  //       },
-  //       options: {
-  //         maintainAspectRatio: false,
-  //         plugins: {
-  //           legend: { display: false }
-  //         },
-  //         scales: {
-  //           y: {
-  //             beginAtZero: true,
-  //             max: 5,
-  //             ticks: {
-  //               stepSize: 1
-  //             }
-  //           }
-  //         },
-  //         animation: {
-  //           duration: 2000,
-  //           easing: 'easeInOutQuart'
-  //         }
-  //       }
-  //     }));
-  //   }
-  //   return () => {
-  //     charts.forEach(chart => chart.destroy());
-  //   };
-  // }, [userData]);
+  useEffect(() => {
+    const charts = [];
+    if (generalHealthRef.current) {
+      charts.push(createAnimatedDoughnutChart(
+        generalHealthRef.current,
+        {
+          labels: ['Score', 'Remaining'],
+          datasets: [{
+            data: [userData.generalHealth * 10, 100 - (userData.generalHealth * 10)],
+            backgroundColor: ['#00BCD4', '#e0e0e0'],
+            borderWidth: 0,
+          }]
+        },
+        ['#00BCD4', '#e0e0e0'],
+        ['#26C6DA', '#bdbdbd']
+      ));
+    }
+    if (relativeHealthRef.current) {
+      charts.push(createAnimatedDoughnutChart(
+        relativeHealthRef.current,
+        {
+          labels: ['Score', 'Remaining'],
+          datasets: [{
+            data: [userData.relativeHealth * 10, 100 - (userData.relativeHealth * 10)],
+            backgroundColor: ['#9C27B0', '#e0e0e0'],
+            borderWidth: 0,
+          }]
+        },
+        ['#9C27B0', '#e0e0e0'],
+        ['#BA68C8', '#bdbdbd']
+      ));
+    }
+    // Vaccination Chart
+    if (vaccinationRef.current){
+      charts.push(createAnimatedDoughnutChart(
+        vaccinationRef.current,
+        {
+          labels: ['Complete', 'Pending'],
+          datasets: [{
+            data: [75, 25],
+            backgroundColor: ['#FF9800', '#e0e0e0'],
+            borderWidth: 0,
+          }]
+        },
+        ['#FF9800', '#e0e0e0'],
+        ['#FFA726', '#bdbdbd']
+      ));
+    }
+    // Symptoms Chart
+    if (symptomsRef.current){
+      charts.push(new Chart(symptomsRef.current, {
+        type: 'line',
+        data: {
+          labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5'],
+          datasets: [{
+            label: 'Symptoms',
+            data: [1, 2, 3, 2, 1],
+            borderColor: '#E91E63',
+            backgroundColor: 'rgba(233, 30, 99, 0.2)',
+            fill: true,
+            tension: 0.4
+          }]
+        },
+        options: {
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 5,
+              ticks: {
+                stepSize: 1
+              }
+            }
+          },
+          animation: {
+            duration: 2000,
+            easing: 'easeInOutQuart'
+          }
+        }
+      }));
+    }
+    return () => {
+      charts.forEach(chart => chart.destroy());
+    };
+  }, [userData]);
   useEffect(() => {
     let charts = [];
     const timeoutId = setTimeout(() => {
