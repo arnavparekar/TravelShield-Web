@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAUxy6OISsmBJqxZb9L4gnaZtmZ20epvP0",
-    authDomain: "travelshield-903aa.firebaseapp.com",
-    projectId: "travelshield-903aa",
-    storageBucket: "travelshield-903aa.firebasestorage.app",
-    messagingSenderId: "879350140169",
-    appId: "1:879350140169:web:346446d3dd3e3b91a657d8",
-    measurementId: "G-39V7PNVK26"
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID",
+    measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 const app = initializeApp(firebaseConfig);
