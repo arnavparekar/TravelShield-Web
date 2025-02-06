@@ -1,5 +1,8 @@
 <center>
-<img src="https://readme-typing-svg.herokuapp.com?font=Lato&size=37&letterSpacing=1px&pause=1000&color=07F7B8&background=FFF06100&center=true&vCenter=true&width=435&lines=Welcome+to+TravelShield!"/>
+<div style="display: flex; align-items: center;">
+  <img src="https://github.com/arnavparekar/TravelShield-Web/blob/main/src/Assets/Logo_TravelShield1.jpg" width="100" height="100" style="vertical-align: middle; padding-right: 20px;">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Lato&size=37&letterSpacing=1px&pause=1000&color=07F7B8&background=FFF06100&center=true&vCenter=true&width=435&lines=Welcome+to+TravelShield!"/>
+</div>
 </center>
 
 
@@ -31,6 +34,10 @@
 ## Intro To TravelShield Video
 
 [Link to the Video](https://youtu.be/Nedx37vZ7AU)
+
+## Link to TravelShield App
+
+[Link to the App](https://github.com/Nikhil-1426/TravelShield)
 
 
 
