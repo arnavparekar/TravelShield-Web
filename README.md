@@ -67,13 +67,13 @@ npm start
   
 # Screenshots
 <pre>
-<img src = "https://github.com/arnavparekar/TravelShield-Web/blob/main/src/Assets/Screenshot%202025-02-06%20at%209.31.18%E2%80%AFPM.png">  
-<img src = "https://github.com/arnavparekar/TravelShield-Web/blob/main/src/Assets/Screenshot%202025-02-06%20at%209.32.10%E2%80%AFPM.png">  
-<img src = "https://github.com/arnavparekar/TravelShield-Web/blob/main/src/Assets/Screenshot%202025-02-06%20at%209.32.21%E2%80%AFPM.png">
-<img src = "https://github.com/arnavparekar/TravelShield-Web/blob/main/src/Assets/Screenshot%202025-02-06%20at%209.32.43%E2%80%AFPM.png">  
-<img src= "https://github.com/arnavparekar/TravelShield-Web/blob/main/src/Assets/Screenshot%202025-02-06%20at%209.32.51%E2%80%AFPM.png">  
-<img src = "https://github.com/arnavparekar/TravelShield-Web/blob/main/src/Assets/Screenshot%202025-02-06%20at%209.33.27%E2%80%AFPM.png">
-<img src= "https://github.com/arnavparekar/TravelShield-Web/blob/main/src/Assets/Screenshot%202025-02-06%20at%209.37.01%E2%80%AFPM.png">  
+<img src = "https://github.com/arnavparekar/TravelShield-Web/blob/arnav/src/Assets/Login.png">  
+<img src = "https://github.com/arnavparekar/TravelShield-Web/blob/arnav/src/Assets/Dashboard.png">  
+<img src = "https://github.com/arnavparekar/TravelShield-Web/blob/arnav/src/Assets/List.png">
+<img src = "https://github.com/arnavparekar/TravelShield-Web/blob/arnav/src/Assets/FilteredList.png">  
+<img src= "https://github.com/arnavparekar/TravelShield-Web/blob/arnav/src/Assets/Profile.png">  
+<img src = "https://github.com/arnavparekar/TravelShield-Web/blob/arnav/src/Assets/Profile2.png">
+<img src= "https://github.com/arnavparekar/TravelShield-Web/blob/arnav/src/Assets/ApproveTrip.png">  
 </pre>
 
 
